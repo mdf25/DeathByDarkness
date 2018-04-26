@@ -14548,25 +14548,37 @@ kind of free
 
 <!-- LOOT BOXES -->
 
+	<!--
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="rConcreteMaster"/>
+	<property name="UpgradeRated.Rate" value="5"/>
+	-->
+
+<block id="1699" name="fox_cntLootMaster">
+	<property name="Extends" value="cntGarageStorage" />
+	<property name="CustomIcon" value="cntGarageStorage"/>
+	<!--
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="rConcreteMaster"/>
+	<property name="UpgradeRated.Rate" value="5"/>
+	-->
+</block>
+
 <!-- Building -->
 <block id="1700" name="fox_cntBuildingLoot1">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="Class" value="Loot" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="537,537,419,419,419,419"/>
 	<property name="LootList" value="100"/>
 </block>
 
 <block id="1701" name="fox_cntBuildingLoot2">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="539,539,419,419,419,419"/>
 	<property name="LootList" value="101"/>
 </block>
 
 <block id="1702" name="fox_cntBuildingLoot3">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="540,540,419,419,419,419"/>
 	<property name="LootList" value="102"/>
 </block>
@@ -14574,22 +14586,19 @@ kind of free
 
 <!-- Guns Ammo -->
 <block id="1703" name="fox_cntGunsAmmoLoot1">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="537,537,418,418,418,418"/>
 	<property name="LootList" value="104"/>
 </block>
 
 <block id="1704" name="fox_cntGunsAmmoLoot2">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="539,539,418,418,418,418"/>
 	<property name="LootList" value="105"/>
 </block>
 
 <block id="1705" name="fox_cntGunsAmmoLoot3">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="540,540,418,418,418,418"/>
 	<property name="LootList" value="106"/>
 </block>
@@ -14598,22 +14607,19 @@ kind of free
 
 <!-- Food -->
 <block id="1706" name="fox_cntFoodLoot1">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="537,537,421,421,421,421"/>
 	<property name="LootList" value="108"/>
 </block>
 
 <block id="1707" name="fox_cntFoodLoot2">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="539,539,421,421,421,421"/>
 	<property name="LootList" value="109"/>
 </block>
 
 <block id="1708" name="fox_cntFoodLoot3">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="540,540,421,421,421,421"/>
 	<property name="LootList" value="110"/>
 </block>
@@ -14622,22 +14628,19 @@ kind of free
 
 <!-- Medical -->
 <block id="1709" name="fox_cntMedicalLoot1">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="537,537,284,284,284,284"/>
 	<property name="LootList" value="112"/>
 </block>
 
 <block id="1710" name="fox_cntMedicalLoot2">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="539,539,284,284,284,284"/>
 	<property name="LootList" value="113"/>
 </block>
 
 <block id="1711" name="fox_cntMedicalLoot3">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="540,540,284,284,284,284"/>
 	<property name="LootList" value="114"/>
 </block>
@@ -14646,22 +14649,19 @@ kind of free
 
 <!-- Armour -->
 <block id="1712" name="fox_cntArmourLoot1">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="537,537,549,549,549,549"/>
 	<property name="LootList" value="116"/>
 </block>
 
 <block id="1713" name="fox_cntArmourLoot2">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="539,539,549,549,549,549"/>
 	<property name="LootList" value="117"/>
 </block>
 
 <block id="1714" name="fox_cntArmourLoot3">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="540,540,549,549,549,549"/>
 	<property name="LootList" value="118"/>
 </block>
@@ -14669,22 +14669,19 @@ kind of free
 
 <!-- Tools -->
 <block id="1715" name="fox_cntToolsLoot1">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="537,537,572,572,572,572"/>
 	<property name="LootList" value="120"/>
 </block>
 
 <block id="1716" name="fox_cntToolsLoot2">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="539,539,572,572,572,572"/>
 	<property name="LootList" value="121"/>
 </block>
 
 <block id="1717" name="fox_cntToolsLoot3">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="540,540,572,572,572,572"/>
 	<property name="LootList" value="122"/>
 </block>
@@ -14694,22 +14691,19 @@ kind of free
 
 <!-- Machinist -->
 <block id="1718" name="fox_cntMachinistLoot1">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="537,537,519,519,519,519"/>
 	<property name="LootList" value="124"/>
 </block>
 
 <block id="1719" name="fox_cntMachinistLoot2">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="539,539,519,519,519,519"/>
 	<property name="LootList" value="125"/>
 </block>
 
 <block id="1720" name="fox_cntMachinistLoot3">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="540,540,519,519,519,519"/>
 	<property name="LootList" value="126"/>
 </block>
@@ -14718,22 +14712,19 @@ kind of free
 
 <!-- Traps -->
 <block id="1721" name="fox_cntTrapsLoot1">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="537,537,422,422,422,422"/>
 	<property name="LootList" value="128"/>
 </block>
 
 <block id="1722" name="fox_cntTrapsLoot2">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="539,539,422,422,422,422"/>
 	<property name="LootList" value="129"/>
 </block>
 
 <block id="1723" name="fox_cntTrapsLoot3">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="540,540,422,422,422,422"/>
 	<property name="LootList" value="130"/>
 </block>
@@ -14742,22 +14733,19 @@ kind of free
 
 <!-- Blunt Blade Bolt Boom -->
 <block id="1724" name="fox_cntBBBBLoot1">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="537,537,420,420,420,420"/>
 	<property name="LootList" value="132"/>
 </block>
 
 <block id="1725" name="fox_cntBBBBLoot2">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="539,539,420,420,420,420"/>
 	<property name="LootList" value="133"/>
 </block>
 
 <block id="1726" name="fox_cntBBBBLoot3">
-	<property name="Extends" value="cntGarageStorage" />
-	<property name="CustomIcon" value="cntGarageStorage"/>
+	<property name="Extends" value="fox_cntLootMaster" />
 	<property name="Texture" value="540,540,420,420,420,420"/>
 	<property name="LootList" value="134"/>
 </block>
