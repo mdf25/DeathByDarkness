@@ -15129,6 +15129,7 @@ kind of free
 
 <block id="1924" name="flagPoleWhiteRiver">
 	<property name="CreativeMode" value="Dev"/>
+	<property name="CanPickup" value="true" />
 	<property name="Material" value="Mmetal_hard"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Decor/flag_polePrefab"/>
