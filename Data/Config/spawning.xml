@@ -41,43 +41,8 @@
 		<spawn maxcount="3" respawndelay="7" time="Any" entitygroup="EnemyAnimalsForest" spawnDeadChance="0" />
 		<spawn maxcount="1" respawndelay="7" time="Any" entitygroup="FriendlyAnimalsForest" spawnDeadChance="0" />
 		
-		<!-- Tier 1 -->
-		<spawn maxcount="5" respawndelay="0" time="Any" entitygroup="SuppliesTier1" spawnDeadChance="1" />
-		<!--
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier1" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier1" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier1" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier1" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier1" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier1" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier1" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier1" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier1" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier1" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier1" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier1" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier1" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier1" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier1" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier1" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier1" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier1" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier1" spawnDeadChance="1" />
-		-->
-		
-		<!-- Tier 2 -->
-		<spawn maxcount="5" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<!--
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		-->
+		<spawn maxcount="5" respawndelay="0.2" time="Any" entitygroup="SuppliesTier1" spawnDeadChance="1" />
+		<spawn maxcount="5" respawndelay="0.4" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
 	</biome>
 
     <biome name="pine_forest">
@@ -106,43 +71,8 @@
 		<spawn maxcount="7" respawndelay="0" time="Night" entitygroup="ZombiesNightWastelandMap" />
         <spawn maxcount="5" respawndelay="1" time="Any"   entitygroup="EnemyAnimalsWasteland" spawnDeadChance="0" />
 		
-		<!-- Tier 2 -->
-		<spawn maxcount="5" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<!--
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
-		-->
-		
-		<!-- Tier 3 -->
-		<spawn maxcount="5" respawndelay="0" time="Any" entitygroup="SuppliesTier3" spawnDeadChance="1" />
-		<!--
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier3" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier3" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier3" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier3" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier3" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier3" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier3" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier3" spawnDeadChance="1" />
-		<spawn maxcount="1" respawndelay="0" time="Any" entitygroup="SuppliesTier3" spawnDeadChance="1" />
-		-->
+		<spawn maxcount="5" respawndelay="0.2" time="Any" entitygroup="SuppliesTier2" spawnDeadChance="1" />
+		<spawn maxcount="5" respawndelay="0.4" time="Any" entitygroup="SuppliesTier3" spawnDeadChance="1" />
     </biome>
 
     <biome name="burnt_forest">
