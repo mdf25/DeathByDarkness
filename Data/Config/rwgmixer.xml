@@ -708,16 +708,16 @@
 	<biome_spawn_rules>
 		<biome_spawn_rule name="forest">
 			<biome_generator range="0,1"/>
-			<distance_from_center range="0,300"/>
+			<distance_from_center range="0,150"/>
 		</biome_spawn_rule>
 
 
 		<biome_spawn_rule name="wasteland">
-			<distance_from_center range="300,500"/>
+			<distance_from_center range="150,400"/>
 		</biome_spawn_rule>
 
 		<biome_spawn_rule name="radiated">
-			<distance_from_center range="500,2000"/>
+			<distance_from_center range="400,2000"/>
 		</biome_spawn_rule>
 		
 	</biome_spawn_rules>

@@ -76,22 +76,22 @@
 	</entitygroup>
 	
 	<entitygroup name="ZombiesDayWastelandMap">
-		<entity name="zombieBoeFeral" prob="0.5" />
-		<entity name="zombieJoeFeral" prob="0.5" />
-		<entity name="zombieSteveFeral" prob="0.5" />
-		<entity name="zombieMoeFeral" prob="0.5" />
-		<entity name="zombieYoFeral" prob="0.5" />
-		<entity name="zombieBusinessManFeral" prob="0.5" />
-		<entity name="zombieArleneFeral" prob="0.5" />
-		<entity name="zombieDarleneFeral" prob="0.5" />
-		<entity name="zombieMarleneFeral" prob="0.5" />
-		<entity name="zombieSkateboarderFeral" prob="0.5" />
-		<entity name="zombieCheerleaderFeral" prob="0.5" />
-		<entity name="zombieOldTimerFeral" prob="0.5" />
-		<entity name="zombieFarmerFeral" prob="0.5" />
-		<entity name="zombieUtilityWorkerFeral" prob="0.5" />
-		<entity name="zombieNurseFeral" prob="0.5" />
-		<entity name="zombieFatHawaiianFeral" prob="0.4" />
+		<entity name="zombieBoe" prob="0.5" />
+		<entity name="zombieJoe" prob="0.5" />
+		<entity name="zombieSteve" prob="0.5" />
+		<entity name="zombieMoe" prob="0.5" />
+		<entity name="zombieYo" prob="0.5" />
+		<entity name="zombieBusinessMan" prob="0.5" />
+		<entity name="zombieArlene" prob="0.5" />
+		<entity name="zombieDarlene" prob="0.5" />
+		<entity name="zombieMarlene" prob="0.5" />
+		<entity name="zombieSkateboarder" prob="0.5" />
+		<entity name="zombieCheerleader" prob="0.5" />
+		<entity name="zombieOldTimer" prob="0.5" />
+		<entity name="zombieFarmer" prob="0.5" />
+		<entity name="zombieUtilityWorker" prob="0.5" />
+		<entity name="zombieNurse" prob="0.5" />
+		<entity name="zombieFatHawaiian" prob="0.4" />
 		<entity name="zombieWightFeral" prob="0.3" />
 		<entity name="zombieFatCop"	prob="0.3" />
 		<entity name="fox_zombieUtilityWorkerRadiated" prob="0.05" />
@@ -156,6 +156,9 @@
 		<entity name="animalLootMachinist1" />
 		<entity name="animalLootTraps1" />
 		<entity name="animalLootBBBB1" />
+		<entity name="animalLandmine1" prob="0.5" />
+		<entity name="animalLandmine2" prob="0.25" />
+		<entity name="animalLandmine4" prob="0.05" />
 	</entitygroup>
 	
 	<entitygroup name="SuppliesTier2">
@@ -168,6 +171,9 @@
 		<entity name="animalLootMachinist2" />
 		<entity name="animalLootTraps2" />
 		<entity name="animalLootBBBB2" />
+		<entity name="animalLandmine1" prob="0.5" />
+		<entity name="animalLandmine2" prob="0.25" />
+		<entity name="animalLandmine4" prob="0.05" />
 	</entitygroup>
 
 	<entitygroup name="SuppliesTier3">
@@ -180,6 +186,9 @@
 		<entity name="animalLootMachinist3" />
 		<entity name="animalLootTraps3" />
 		<entity name="animalLootBBBB3" />
+		<entity name="animalLandmine2" prob="0.5" />
+		<entity name="animalLandmine3" prob="0.05" />
+		<entity name="animalLandmine4" prob="0.25" />
 	</entitygroup>
 	
 

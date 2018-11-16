@@ -1663,8 +1663,21 @@
 	<property name="CorpseBlock" value="fox_cntBBBBLoot3" />
 </entity_class>
 
+<entity_class name="animalLandmine1" extends="animalLootBase">
+	<property name="CorpseBlock" value="mineCandyTin" />
+</entity>
 
+<entity_class name="animalLandmine2" extends="animalLootBase">
+	<property name="CorpseBlock" value="mineHubcap" />
+</entity>
 
+<entity_class name="animalLandmine3" extends="animalLootBase">
+	<property name="CorpseBlock" value="mineAirFilter" />
+</entity>
+
+<entity_class name="animalLandmine4" extends="animalLootBase">
+	<property name="CorpseBlock" value="mineCookingPot" />
+</entity>
 
 <!--
 		<block name="fox_cntBBBBLoot1" />

@@ -1361,6 +1361,32 @@ If you do not declare them, the decorations of the main biome are used.
 			<decoration type="block" blockname="fox_cntTrapsLoot3" prob="0.0005" />
 			<decoration type="block" blockname="fox_cntBBBBLoot2" prob="0.001" />
 			<decoration type="block" blockname="fox_cntBBBBLoot3" prob="0.0005" />
+		
+			<!-- Other buildings -->
+			<decoration type="prefab" name="mp_waste_bldg_01_white" prob="0.06"/>
+			<decoration type="prefab" name="mp_waste_bldg_03_white" prob="0.05"/>
+			<decoration type="prefab" name="mp_waste_bldg_04_white" prob="0.06"/>
+			<decoration type="prefab" name="mp_waste_bldg_01_red" prob="0.05"/>
+			<decoration type="prefab" name="mp_waste_bldg_02_red" prob="0.04"/>
+			<decoration type="prefab" name="mp_waste_bldg_03_red" prob="0.06"/>
+			<decoration type="prefab" name="mp_waste_bldg_04_red" prob="0.12"/>
+			<decoration type="prefab" name="mp_waste_bldg_01_tan" prob="0.03"/>
+			<decoration type="prefab" name="mp_waste_bldg_02_tan" prob="0.06"/>
+			<decoration type="prefab" name="mp_waste_bldg_03_tan" prob="0.12"/>
+			<decoration type="prefab" name="mp_waste_bldg_04_tan" prob="0.22"/>
+			<decoration type="prefab" name="mp_waste_bldg_04_grey" prob="0.01"/>
+			<decoration type="prefab" name="mp_waste_bldg_05_grey" prob="0.11"/>
+			<decoration type="prefab" name="mp_waste_bldg_06_grey" prob="0.01"/>
+			<decoration type="prefab" name="waste_rubble_bldg_01" prob="0.06"/>
+			<decoration type="prefab" name="waste_rubble_bldg_02" prob="0.15"/>
+			<decoration type="prefab" name="waste_rubble_bldg_03" prob="0.06"/>
+			<decoration type="prefab" name="waste_rubble_bldg_04" prob="0.05"/>
+			<decoration type="prefab" name="waste_rubble_bldg_05" prob="0.06"/>
+			<decoration type="prefab" name="waste_rubble_bldg_06" prob="0.15"/>
+			<decoration type="prefab" name="waste_rubble_bldg_07" prob="0.06"/>
+			<decoration type="prefab" name="waste_rubble_bldg_08" prob="0.05"/>
+			<decoration type="prefab" name="waste_rubble_bldg_09" prob="0.06"/>
+			<decoration type="prefab" name="mp_waste_sewer_hole_1" prob="0.01"/>
 		</decorations>
 		<terrain class="Wasteland" />
 	</biome>

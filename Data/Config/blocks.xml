@@ -5060,7 +5060,6 @@ kind of free
 	<property name="Explosion.RadiusEntities" value="3"/>
 	<property name="Explosion.BlockDamage" value="10"/>
 	<property name="Explosion.EntityDamage" value="85"/>
-	<property name="CanPickup" value="true" param1="cookingPot"/>
 	<property name="EconomicValue" value="120"/>
 </block>
 
